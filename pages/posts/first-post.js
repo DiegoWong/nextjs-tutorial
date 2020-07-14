@@ -1,10 +1,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from "../../components/layout";
-import { getContentFromType } from '../../ignore/contenful'
 
 export default function FirstPost() {
-    getContentFromType()
     return (
         <Layout>
             <Head>
